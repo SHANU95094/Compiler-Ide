@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Header from '../Components/Header/Header';
+import Main from '../Components/Main/Main';
 
-const Home = ({isLoggedIn}) => {
+
+function Home() {
   return (
-    <div className='flex justify-center items-center text-white text-3xl h-full'>
-      Home
+    <div className="app">
+      <Header />
+      <Main />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
